@@ -20,6 +20,17 @@
     text-align: center;
     margin-bottom: 1em;
 }
+.playerX{
+    color: red;
+}
+.playerO{
+    color: green;
+}
+
+.hide{
+    display: none;
+    
+}
 .container{
     margin: 0 auto;
     display: grid;
@@ -35,6 +46,7 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    font-size: 35px;
 }
 
 .controls{
@@ -46,7 +58,7 @@
 }
 
 .controls button{
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 8px;
     border-radius: 8px;
     font-size: 20px;
